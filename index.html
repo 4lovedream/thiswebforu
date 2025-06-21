@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>คำถามหน้าแรก</title>
+  <style>
+    body {
+      font-family: 'sans-serif';
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #fdfdfd;
+    }
+    h1 {
+      color: #ff00b3;
+      margin-bottom: 30px;
+    }
+    .buttons {
+      display: flex;
+      gap: 20px;
+    }
+    button {
+      padding: 10px 25px;
+      font-size: 1.2em;
+      border: 2px solid #ff00d9;
+      border-radius: 8px;
+      background-color: white;
+      color: #ff00d9;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    button:hover {
+      background-color: #ff00ee;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>ใช่คนสวยมั้ย?</h1>
+
+  <div class="buttons">
+    <button onclick="location.href='flower.html'">ใช่</button>
+    <button onclick="alert('ต้องกดใช่นะเพราะคุณคือคนที่สวยที่สุด')">ไม่</button>
+  </div>
+</body>
+</html>
